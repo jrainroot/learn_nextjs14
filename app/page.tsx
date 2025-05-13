@@ -1,3 +1,12 @@
+"use client";
+import { usePathname } from "next/navigation";
+import Navigation from "../components/navigation";
+
 export default function Tomate() {
-  return <h1>Hello NextJs!</h1>;
+  return (
+    <div>
+      <Navigation />
+      <h1>Home!</h1>
+    </div>
+  );
 }
